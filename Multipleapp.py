@@ -12,10 +12,10 @@ from sklearn.preprocessing import StandardScaler
 
 
 #loading the models
-diadetes_model = pickle.load(open('C:/Users/karan/OneDrive/Documents/ML/PIMA_daibetics.sav','rb'))
-heart_model = pickle.load(open('C:/Users/karan/OneDrive/Documents/ML/Heart_disease_model.sav','rb'))
-parkison_model = pickle.load(open('C:/Users/karan/OneDrive/Documents/ML/parikson_disease.sav','rb'))
-scaler = pickle.load(open('C:/Users/karan/OneDrive/Documents/ML/parikson_scaled.sav','rb'))
+diadetes_model = pickle.load(open('PIMA_daibetics.sav','rb'))
+heart_model = pickle.load(open('Heart_disease_model.sav','rb'))
+parkison_model = pickle.load(open('parikson_disease.sav','rb'))
+scaler = pickle.load(open('parikson_scaled.sav','rb'))
 #Sidebar for Navigate
 
 with st.sidebar:
